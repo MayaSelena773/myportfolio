@@ -10,10 +10,11 @@
   <title>Mayaweb</title>
 </head>
 <body>
-  <!--Header navbar + dropdown-->
+  <!--Header navbar, dropdown + mobile version-->
 <nav>
   <div class="nav-wrapper indigo lighten-3">
     <img class="ms_logo" src="assets/img/lotus_violet.png" alt="lotuslogo">
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fa-regular fa-gem"></i></a>
     <ul class="right hide-on-med-and-down">
       <li><a href="tictactoe.html">Play</a></li>
       <!-- Dropdown Trigger -->
@@ -25,6 +26,17 @@
     </ul>
   </div>
 </nav>
+<!-- Mobile -->
+<ul class="sidenav" id="mobile-demo">
+  <li><a href="tictactoe.html">Play</a></li>
+  <!-- Dropdown -->
+  <li>
+    <a class="dropdown-trigger" href="#!" data-target="dropdown1">Skills
+      <i class="fa-solid fa-caret-down material-icons right little_icon"></i>
+    </a>
+  </li>
+</ul>
+
 <!--Dropdown content-->
 <ul id="dropdown1" class="dropdown-content">
   <li><a href="#!"><i class="fa-brands fa-html5 right ms_color_icon"></i></a></li>
@@ -38,6 +50,28 @@
   <li class="divider"></li>
   <li><a href="#!"><i class="fa-brands fa-figma right ms_color_icon"></i></a></li>
 </ul>
+
+<!--
+<nav>
+  <div class="nav-wrapper">
+    <a href="#!" class="brand-logo">Logo</a>
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="sass.html">Sass</a></li>
+      <li><a href="badges.html">Components</a></li>
+      <li><a href="collapsible.html">Javascript</a></li>
+      <li><a href="mobile.html">Mobile</a></li>
+    </ul>
+  </div>
+</nav>
+
+<ul class="sidenav" id="mobile-demo">
+  <li><a href="sass.html">Sass</a></li>
+  <li><a href="badges.html">Components</a></li>
+  <li><a href="collapsible.html">Javascript</a></li>
+  <li><a href="mobile.html">Mobile</a></li>
+</ul>
+-->
 
   <!--First img parallax-->
   <div class="parallax-container">

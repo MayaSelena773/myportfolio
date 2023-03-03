@@ -4,6 +4,18 @@
     $(".dropdown-trigger").dropdown();
   });
 
+  //Mobile version
+
+  /*document.addEventListener('DOMContentLoaded', function() {
+   var elems = document.querySelectorAll('.sidenav');
+   var instances = M.Sidenav.init(elems, options);
+  });
+  */
+
+  $(document).ready(function(){
+   $('.sidenav').sidenav();
+  });
+
 
 //Parallax
 /*document.addEventListener('DOMContentLoaded', function() {
