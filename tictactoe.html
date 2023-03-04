@@ -10,34 +10,36 @@
   <title>tictactoe</title>
 </head>
 <body>
-  <!--Header navbar + dropdown-->
+  <!--Header navbar, dropdown + mobile version-->
 <nav>
   <div class="nav-wrapper indigo lighten-3">
     <img class="ms_logo" src="assets/img/lotus_violet.png" alt="lotuslogo">
+    <a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="fa-regular fa-gem"></i></a>
     <ul class="right hide-on-med-and-down">
+      <li><a href="assets/file/MayaBonoCV.pdf" download="Acme Documentation (ver. 2.0.1).txt">Scarica CV</a></li>
       <li><a href="index.html">Home</a></li>
       <!-- Dropdown Trigger -->
       <li>
         <a class="dropdown-trigger" href="#!" data-target="dropdown1">Skills
           <i class="fa-solid fa-caret-down material-icons right little_icon"></i>
         </a>
+        <!--Dropdown content-->
+        <ul id="dropdown1" class="dropdown-content">
+          <li><a href="#!"><i class="fa-brands fa-html5 right ms_color_icon"></i></a></li>
+          <li><a href="#!"><i class="fa-brands fa-css3-alt right ms_color_icon"></i></a></li>
+          <li><a href="#!"><i class="fa-brands fa-square-js right ms_color_icon"></i></a></li>
+          <li><a href="#!"><i class="fa-brands fa-vuejs right ms_color_icon"></i></a></li>
+          <li><a href="#!"><i class="fa-brands fa-php right ms_color_icon"></i></a></li>
+          <li><a href="#!"><i class="fa-brands fa-laravel right ms_color_icon"></i></a></li>
+          <li><a href="#!"><i class="fa-brands fa-github right ms_color_icon"></i></a></li>
+          <li><a href="#!"><i class="fa-solid fa-atom right ms_color_icon"></i></a></li>
+          <li class="divider"></li>
+          <li><a href="#!"><i class="fa-brands fa-figma right ms_color_icon"></i></a></li>
+        </ul>
       </li>
     </ul>
   </div>
 </nav>
-<!--Dropdown content-->
-<ul id="dropdown1" class="dropdown-content">
-  <li><a href="#!"><i class="fa-brands fa-html5 right ms_color_icon"></i></a></li>
-  <li><a href="#!"><i class="fa-brands fa-css3-alt right ms_color_icon"></i></a></li>
-  <li><a href="#!"><i class="fa-brands fa-square-js right ms_color_icon"></i></a></li>
-  <li><a href="#!"><i class="fa-brands fa-vuejs right ms_color_icon"></i></a></li>
-  <li><a href="#!"><i class="fa-brands fa-php right ms_color_icon"></i></a></li>
-  <li><a href="#!"><i class="fa-brands fa-laravel right ms_color_icon"></i></a></li>
-  <li><a href="#!"><i class="fa-brands fa-github right ms_color_icon"></i></a></li>
-  <li><a href="#!"><i class="fa-solid fa-atom right ms_color_icon"></i></a></li>
-  <li class="divider"></li>
-  <li><a href="#!"><i class="fa-brands fa-figma right ms_color_icon"></i></a></li>
-</ul>
 
 <!--GAME: Tic Tac Toe-->
 <section class="container game_center">
@@ -57,52 +59,52 @@
   </div>
 </section>
 
-    <!--Footer-->
-    <footer class="page-footer ms_background">
-          <div class="container">
-            <div class="row">
-              <div class="col s4 center-align">
-                <h5 class="white-text">Grazie per aver visitato il mio sito</h5>
-                <p class="grey-text text-lighten-4">Spero sia stato di vostro gradimento ;-)<br>
-                Un ringraziamento speciale va al mio teacher, ai tutor di Boolean e a tutta la classe!! Ed ultimo ma non per importanza al mio compagno <i class="fa-solid fa-heart"></i></p>
-              </div>
-              <!--Links-->
-              <div class="col s4 center-align">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                  <li>
-                    <a href="https://www.linkedin.com/in/maya-bono-bba190251/">
-                      <i class="fa-brands fa-linkedin-in social_img"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.pinterest.it/MayaSelena773/">
-                      <i class="fa-brands fa-pinterest-p social_img"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/MayaSelena773">
-                      <i class="fa-brands fa-github social_img"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <!--Img The End-->
-              <div class="col s4 center-align">
-                <img class="footer_img" src="assets/img/theendtv.jpg" alt="theend">
-              </div>
-            </div>
+<!--Footer-->
+<footer class="page-footer ms_background">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m4 center-align">
+            <h5 class="white-text">Grazie per aver visitato il mio sito</h5>
+            <p class="grey-text text-lighten-4">Spero sia stato di vostro gradimento ;-)<br>
+            Un ringraziamento speciale va al mio teacher, ai tutor di Boolean e a tutta la classe!! Ed ultimo ma non per importanza al mio compagno <i class="fa-solid fa-heart"></i></p>
           </div>
-          <!--Copyright-->
-          <div class="footer-copyright">
-            <div class="container">
-            <div class="ms_flex">
-              Made by Maya Bono<br>
-              © 2023 Copyright bububaba
-            </div>
-            </div>
+          <!--Links-->
+          <div class="col s12 m4 center-align">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/maya-bono-bba190251/">
+                  <i class="fa-brands fa-linkedin-in social_img"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pinterest.it/MayaSelena773/">
+                  <i class="fa-brands fa-pinterest-p social_img"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/MayaSelena773">
+                  <i class="fa-brands fa-github social_img"></i>
+                </a>
+              </li>
+            </ul>
           </div>
-        </footer>
+          <!--Img The End-->
+          <div class="col s12 m4 center-align">
+            <img class="footer_img" src="assets/img/theendtv.jpg" alt="theend">
+          </div>
+        </div>
+      </div>
+      <!--Copyright-->
+      <div class="footer-copyright">
+        <div class="container">
+        <div class="ms_flex">
+          Made by Maya Bono<br>
+          © 2023 Copyright bububaba
+        </div>
+        </div>
+      </div>
+    </footer>
 
     <!--Link Script (jquery, materialize, js)-->
     <script
