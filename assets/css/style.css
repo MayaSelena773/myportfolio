@@ -1,7 +1,7 @@
 /*Body*/
 /*Header*/
 .ms_logo {
-  width: 60px;
+  width: 3.75rem;
   border-radius: 50px;
   margin-left: 20px;
   margin-top: 2px;
@@ -14,7 +14,7 @@
 }
 /*Parallax imgs*/
 .parallax-container {
-  height: 550px;
+  height: 34.375rem;
   position: relative;
 }
 .img-overlay {

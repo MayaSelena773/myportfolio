@@ -14,7 +14,7 @@
 <nav>
   <div class="nav-wrapper indigo lighten-3">
     <img class="ms_logo" src="assets/img/lotus_violet.png" alt="lotuslogo">
-    <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="fa-regular fa-gem"></i></a>
+    <a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="fa-regular fa-gem"></i></a>
     <ul class="right hide-on-med-and-down">
       <li><a href="assets/file/MayaBonoCV.pdf" download="Acme Documentation (ver. 2.0.1).txt">Scarica CV</a></li>
       <li><a href="tictactoe.html">Play</a></li>
@@ -23,35 +23,34 @@
         <a class="dropdown-trigger" href="#!" data-target="dropdown1">Skills
           <i class="fa-solid fa-caret-down material-icons right little_icon"></i>
         </a>
+        <!--Dropdown content-->
+        <ul id="dropdown1" class="dropdown-content">
+          <li><a href="#!"><i class="fa-brands fa-html5 right ms_color_icon"></i></a></li>
+          <li><a href="#!"><i class="fa-brands fa-css3-alt right ms_color_icon"></i></a></li>
+          <li><a href="#!"><i class="fa-brands fa-square-js right ms_color_icon"></i></a></li>
+          <li><a href="#!"><i class="fa-brands fa-vuejs right ms_color_icon"></i></a></li>
+          <li><a href="#!"><i class="fa-brands fa-php right ms_color_icon"></i></a></li>
+          <li><a href="#!"><i class="fa-brands fa-laravel right ms_color_icon"></i></a></li>
+          <li><a href="#!"><i class="fa-brands fa-github right ms_color_icon"></i></a></li>
+          <li><a href="#!"><i class="fa-solid fa-atom right ms_color_icon"></i></a></li>
+          <li class="divider"></li>
+          <li><a href="#!"><i class="fa-brands fa-figma right ms_color_icon"></i></a></li>
+        </ul>
       </li>
     </ul>
   </div>
 </nav>
-<!-- Mobile -->
+
+<!-- Mobile
 <ul class="sidenav" id="mobile-demo">
   <li><a href="assets/file/MayaBonoCV.pdf" download="Acme Documentation (ver. 2.0.1).txt">Scarica CV</a></li>
   <li><a href="tictactoe.html">Play</a></li>
-  <!-- Dropdown -->
   <li>
     <a class="dropdown-trigger" href="#!" data-target="dropdown1">Skills
       <i class="fa-solid fa-caret-down material-icons right little_icon"></i>
     </a>
   </li>
-</ul>
-
-<!--Dropdown content-->
-<ul id="dropdown1" class="dropdown-content">
-  <li><a href="#!"><i class="fa-brands fa-html5 right ms_color_icon"></i></a></li>
-  <li><a href="#!"><i class="fa-brands fa-css3-alt right ms_color_icon"></i></a></li>
-  <li><a href="#!"><i class="fa-brands fa-square-js right ms_color_icon"></i></a></li>
-  <li><a href="#!"><i class="fa-brands fa-vuejs right ms_color_icon"></i></a></li>
-  <li><a href="#!"><i class="fa-brands fa-php right ms_color_icon"></i></a></li>
-  <li><a href="#!"><i class="fa-brands fa-laravel right ms_color_icon"></i></a></li>
-  <li><a href="#!"><i class="fa-brands fa-github right ms_color_icon"></i></a></li>
-  <li><a href="#!"><i class="fa-solid fa-atom right ms_color_icon"></i></a></li>
-  <li class="divider"></li>
-  <li><a href="#!"><i class="fa-brands fa-figma right ms_color_icon"></i></a></li>
-</ul>
+</ul>-->
 
 <!--
 <ul id="tabs-swipe-demo" class="tabs">
@@ -76,12 +75,12 @@
     <section class="section white">
       <div class="row container">
         <!--content left, img right-->
-        <div class="col s6">
+        <div class="col s12 m6">
           <h2 class="header ms_subtitle">Salve a tutti!</h2>
           <p class="grey-text text-darken-3 lighten-3 ms_text">Sono Maya Bono e ho 28 anni,<br> lo scorso anno ho deciso di reinventarmi e, dopo sei mesi di corso intensivo, ho conseguito la qualifica di Full Stack Web Developer presso la Boolean Careers.<br> Sono contenta di essere diventata una programmatrice perchè amo creare in tanti modi diversi e costruire pagine web da' molte soddisfazioni!! </p>
         </div>
-        <div class="col s6">
-          <img class="ms_image marg_top" src="assets/img/fantawork.gif" alt="fantawork">
+        <div class="col hide-on-small-only m6">
+          <img class="ms_image marg_top responsive-img" src="assets/img/fantawork.gif" alt="fantawork">
         </div>
       </div>
     </section>
@@ -98,10 +97,10 @@
     <div class="section white">
       <div class="row container">
         <!--img left, content right-->
-        <div class="col s6">
+        <div class="col hide-on-small-only m6">
           <img class="ms_image responsive-img marg_more" src="assets/img/createyrworld.png" alt="create">
         </div>
-        <div class="col s6">
+        <div class="col s12 m6">
           <h2 class="header ms_subtitle">Studi ed esperienza</h2>
           <p class="grey-text text-darken-3 lighten-3 ms_text">Ho conseguito il diploma in scienze sociali per poi laurearmi all'università di Psicologia e Scienze della Formazione di Bologna, corso Educatore Sociale e Culturale.<br> Durante la triennale ho fatto il Servizio Civile e altri lavori saltuari come aiuto cuoca e commessa.<br> In seguito ho iniziato a lavorare come educatrice, e ho continuato per sei anni finchè, dopo vari cambiamenti personali, ho deciso di rimettermi in discussione e imparare un nuovo mestiere: web developer.</p>
         </div>
@@ -119,9 +118,9 @@
     <!--White section hobby-->
     <section class="section white">
       <div class="row container">
-        <h2 class="header ms_subtitle">Hobby e Passioni</h2>
+        <h2 class="header ms_subtitle s12">Hobby e Passioni</h2>
         <!--Carousel-->
-        <div class="carousel">
+        <div class="carousel s12">
           <a class="carousel-item" href="#one!"><img class="carousel_img" src="assets/img/musica.png"></a>
           <a class="carousel-item" href="#two!"><img class="carousel_img" src="assets/img/fantasy.png"></a>
           <a class="carousel-item" href="#three!"><img class="carousel_img" src="assets/img/video.png"></a>
@@ -163,7 +162,7 @@
               </div>
               <!--Img The End-->
               <div class="col s4 center-align">
-                <img class="footer_img" src="assets/img/theendtv.jpg" alt="theend">
+                <img class="footer_img responsive-img" src="assets/img/theendtv.jpg" alt="theend">
               </div>
             </div>
           </div>
