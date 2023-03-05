@@ -63,7 +63,7 @@
   width: 425px;
 }
 .carousel_img {
-  width: 100% ! important;
+  width: 150% ! important;
 }
 /*GAME: Tic Tac Toe*/
 :root {
@@ -74,7 +74,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 50px 200px;
+  margin: 3rem auto;
   color: #311b92;
 }
 .violet_title {
@@ -84,17 +84,17 @@
   width: 450px;
   display: flex;
   flex-wrap: wrap;
-  margin: 20px;
+  margin: 1.25rem;
 }
 .box {
   width: 150px;
   height: 150px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   border-right: 2px solid #311b92;
   border-bottom: 2px solid #311b92;
-  font-size: 100px;
+  font-size: 6.25rem;
 }
 .box:nth-child(3n) {
   border-right: none;
@@ -130,6 +130,34 @@
 }
 
 /*MEDIA QUERIES*/
+/*Tablet*/
+@media screen and (max-width: 768px) {
+  /*Prallax imgs text*/
+  .ms_big_title {
+    font-size: 60px;
+    left: 10px;
+    top: 230px;
+  }
+  .ms_little_title {
+    font-weight: 350;
+    font-size: 40px;
+    left: 5px;
+    top: 150px;
+  }
+  .ms_subtitle {
+    font-size: 50px;
+  }
+  .ms_text {
+    font-size: 20px;
+  }
+  /*White sections*/
+  .tablet_center {
+    text-align: center;
+  }
+  .carousel_img {
+    width: 100% ! important;
+  }
+}
 /*Mobile*/
 @media screen and (max-width: 375px) {
   /*Prallax imgs text*/
@@ -140,7 +168,7 @@
   }
   .ms_little_title {
     font-weight: 350;
-    font-size: 30px;
+    font-size: 29px;
     left: 5px;
     top: 150px;
   }
@@ -150,25 +178,12 @@
   .ms_text {
     font-size: 20px;
   }
-}
-/*Tablet*/
-@media screen and (max-width: 768px) {
-  /*Prallax imgs text*/
-  .ms_big_title {
-    font-size: 60px;
-    left: 10px;
-    top: 190px;
+  /*GAME*/
+  #gameboard {
+    width: 28.125rem;
   }
-  .ms_little_title {
-    font-weight: 350;
-    font-size: 40px;
-    left: 5px;
-    top: 150px;
-  }
-  .ms_subtitle {
-    font-size: 50px;
-  }
-  .ms_text {
-    font-size: 20px;
+  .box {
+    width: 9.375rem;
+    height: 9.375rem;
   }
 }
