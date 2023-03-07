@@ -1,3 +1,4 @@
+M.AutoInit();
 //Dropdown navbar
   $(document).ready(function(){
     $(".dropdown-trigger").dropdown();

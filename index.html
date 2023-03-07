@@ -40,28 +40,29 @@
     </ul>
   </div>
 </nav>
-
-<!-- Mobile
+<!-- Mobile -->
 <ul class="sidenav" id="mobile-demo">
   <li><a href="assets/file/MayaBonoCV.pdf" download="Acme Documentation (ver. 2.0.1).txt">Scarica CV</a></li>
   <li><a href="tictactoe.html">Play</a></li>
   <li>
-    <a class="dropdown-trigger" href="#!" data-target="dropdown1">Skills
+    <a class="dropdown-trigger" href="#!" data-target="dropdown2">Skills
       <i class="fa-solid fa-caret-down material-icons right little_icon"></i>
     </a>
   </li>
-</ul>-->
-
-<!--
-<ul id="tabs-swipe-demo" class="tabs">
-  <li class="tab col s3"><a href="#test-swipe-1">Test 1</a></li>
-  <li class="tab col s3"><a class="active" href="#test-swipe-2">Test 2</a></li>
-  <li class="tab col s3"><a href="#test-swipe-3">Test 3</a></li>
 </ul>
-<div id="test-swipe-1" class="col s12 blue">Test 1</div>
-<div id="test-swipe-2" class="col s12 red">Test 2</div>
-<div id="test-swipe-3" class="col s12 green">Test 3</div>
--->
+<!--Mobile dropdown content-->
+<ul id="dropdown2" class="dropdown-content">
+  <li><a href="#!"><i class="fa-brands fa-html5 right ms_color_icon"></i></a></li>
+  <li><a href="#!"><i class="fa-brands fa-css3-alt right ms_color_icon"></i></a></li>
+  <li><a href="#!"><i class="fa-brands fa-square-js right ms_color_icon"></i></a></li>
+  <li><a href="#!"><i class="fa-brands fa-vuejs right ms_color_icon"></i></a></li>
+  <li><a href="#!"><i class="fa-brands fa-php right ms_color_icon"></i></a></li>
+  <li><a href="#!"><i class="fa-brands fa-laravel right ms_color_icon"></i></a></li>
+  <li><a href="#!"><i class="fa-brands fa-github right ms_color_icon"></i></a></li>
+  <li><a href="#!"><i class="fa-solid fa-atom right ms_color_icon"></i></a></li>
+  <li class="divider"></li>
+  <li><a href="#!"><i class="fa-brands fa-figma right ms_color_icon"></i></a></li>
+</ul>
 
   <!--First img parallax-->
   <div class="parallax-container">
@@ -93,19 +94,32 @@
       <h1 class="ms_little_title">“...Un lungo viaggio di mille miglia si comincia col muovere un piede.”<br> Lao Tse</h1>
     </div>
 
-    <!--White section study n experience-->
-    <div class="section white">
+    <!--White section swipeable tabs: study n experience, Boolean projects-->
+    <section class="section white">
       <div class="row container">
-        <!--img left, content right-->
-        <div class="col hide-on-med-and-down m6">
-          <img class="ms_image responsive-img marg_more" src="assets/img/createyrworld.png" alt="create">
+        <ul id="tabs-swipe-demo" class="tabs">
+          <li class="tab col s3"><a class="active deep-purple-text text-darken-4" href="#test-swipe-1">Studi ed esperienza</a></li>
+          <li class="tab col s3"><a class="deep-purple-text text-darken-4" href="#test-swipe-2">Progetti Boolean</a></li>
+        </ul>
+        <!--Study n experience-->
+        <div id="test-swipe-1" class="col s12">
+          <!--img left, content right-->
+          <div class="row">
+            <div class="col hide-on-med-and-down m6">
+              <img class="ms_image responsive-img marg_more" src="assets/img/createyrworld.jpg" alt="create">
+            </div>
+            <div class="col s12 l6 tablet_center">
+              <h2 class="header ms_subtitle">Studi ed esperienza</h2>
+              <p class="grey-text text-darken-3 lighten-3 ms_text">Ho conseguito il diploma in scienze sociali per poi laurearmi all'università di Psicologia e Scienze della Formazione di Bologna, corso Educatore Sociale e Culturale.<br> In seguito ho lavorato per sei anni come educatrice, finchè, dopo vari cambiamenti personali, ho deciso di rimettermi in discussione e imparare un nuovo mestiere: web developer.<br> Il Problem solving, la capacità di lavorare in team, l'esperienza di mediazione interpersonale e l'ascolto attivo che ho sviluppato come educatrice mi sono state molto utili anche come sviluppatrice e le ritengo soft skills fondamentali nel rapporto con colleghi, clienti e nella quotidianità!</p>
+            </div>
+          </div>
         </div>
-        <div class="col s12 l6 tablet_center">
-          <h2 class="header ms_subtitle">Studi ed esperienza</h2>
-          <p class="grey-text text-darken-3 lighten-3 ms_text">Ho conseguito il diploma in scienze sociali per poi laurearmi all'università di Psicologia e Scienze della Formazione di Bologna, corso Educatore Sociale e Culturale.<br> Durante la triennale ho fatto il Servizio Civile e altri lavori saltuari come aiuto cuoca e commessa.<br> In seguito ho iniziato a lavorare come educatrice, e ho continuato per sei anni finchè, dopo vari cambiamenti personali, ho deciso di rimettermi in discussione e imparare un nuovo mestiere: web developer.</p>
+        <!--Boolean projects-->
+        <div id="test-swipe-2" class="col s12 ms_proj">
+          <h2 class="header ms_subtitle">Qualche progetto Boolean...</h2>
         </div>
       </div>
-    </div>
+    </section>
 
     <!--Third img parallax-->
     <div class="parallax-container img-overlay">
