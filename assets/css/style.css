@@ -62,8 +62,8 @@
   margin-right: 50px;
   margin-left: -30px;
 }
-.ms_proj {
-  height: 100%;
+.marg_tag {
+  margin: 5rem;
 }
 .carousel_img {
   width: 150% ! important;
